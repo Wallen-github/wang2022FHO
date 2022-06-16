@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{1B68C5BA-2DC5-469A-AC89-5D8B2A475C02}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole" StackReserveSize="268435456"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+		<File RelativePath=".\CheckImpact.f90"/>
+		<File RelativePath=".\DeltaY.f90"/>
+		<File RelativePath=".\EIGENS.FOR"/>
+		<File RelativePath=".\Energy.f90"/>
+		<File RelativePath=".\GetFre.f90"/>
+		<File RelativePath=".\GetSEP.f90"/>
+		<File RelativePath=".\Global.f90"/>
+		<File RelativePath=".\LCE_FLI.for"/>
+		<File RelativePath=".\main_comp_ana_num_boost.f90"/>
+		<File RelativePath=".\MultipleShooting.for"/>
+		<File RelativePath=".\OTHERS.FOR"/>
+		<File RelativePath=".\PeriodicOrbit.f90"/>
+		<File RelativePath=".\ProgressBar.f90"/>
+		<File RelativePath=".\RKF78.f90"/>
+		<File RelativePath=".\trig_par.f90"/>
+		<File RelativePath=".\trigonom_multi.for"/>
+		<File RelativePath=".\YHC.f90"/>
+		<File RelativePath=".\YHC2_v2.f90"/>
+		<File RelativePath=".\YHC3_v2.f90"/>
+		<File RelativePath=".\YHCN.f90"/></Filter>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl"/></Files>
+	<Globals/></VisualStudioProject>
